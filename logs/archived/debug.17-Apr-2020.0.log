@@ -1,0 +1,10 @@
+16-Apr-2020 19:30:50 - Starting MessagingApplication on LAPTOP-DPPDCD9B with PID 14132 (C:\Users\Chapalamadugu's\git\messagingserver\target\classes started by Chapalamadugu's in C:\Users\Chapalamadugu's\git\messagingserver)
+16-Apr-2020 19:30:50 - Running with Spring Boot v2.1.2.RELEASE, Spring v5.1.4.RELEASE
+16-Apr-2020 19:30:50 - The following profiles are active: dev
+16-Apr-2020 19:31:27 - Filter 'jwtTokenFilter' configured for use
+16-Apr-2020 19:31:27 - initRepositotyHashMap# entry
+16-Apr-2020 19:31:27 - couchEntities# entityInfoRepository:org.springframework.data.jpa.repository.support.SimpleJpaRepository@c5ce717
+16-Apr-2020 19:31:27 -  EntityInfoBean# entry
+16-Apr-2020 19:31:28 -  EntityInfoBean# exit
+16-Apr-2020 19:31:28 - initRepositotyHashMap# exit
+16-Apr-2020 19:31:30 - Started MessagingApplication in 40.67 seconds (JVM running for 41.943)

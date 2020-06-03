@@ -1,0 +1,90 @@
+17-May-2020 23:56:16 - Application run failed
+java.lang.IllegalStateException: java.io.FileNotFoundException: C:\Users\Chapalamadugu's\Documents\workspace-spring-tool-suite-4-4.6.0.RELEASE\Assignment\logback.xml (The system cannot find the file specified)
+	at org.springframework.boot.context.logging.LoggingApplicationListener.initializeSystem(LoggingApplicationListener.java:305)
+	at org.springframework.boot.context.logging.LoggingApplicationListener.initialize(LoggingApplicationListener.java:266)
+	at org.springframework.boot.context.logging.LoggingApplicationListener.onApplicationEnvironmentPreparedEvent(LoggingApplicationListener.java:229)
+	at org.springframework.boot.context.logging.LoggingApplicationListener.onApplicationEvent(LoggingApplicationListener.java:202)
+	at org.springframework.context.event.SimpleApplicationEventMulticaster.doInvokeListener(SimpleApplicationEventMulticaster.java:172)
+	at org.springframework.context.event.SimpleApplicationEventMulticaster.invokeListener(SimpleApplicationEventMulticaster.java:165)
+	at org.springframework.context.event.SimpleApplicationEventMulticaster.multicastEvent(SimpleApplicationEventMulticaster.java:139)
+	at org.springframework.context.event.SimpleApplicationEventMulticaster.multicastEvent(SimpleApplicationEventMulticaster.java:127)
+	at org.springframework.boot.context.event.EventPublishingRunListener.environmentPrepared(EventPublishingRunListener.java:75)
+	at org.springframework.boot.SpringApplicationRunListeners.environmentPrepared(SpringApplicationRunListeners.java:54)
+	at org.springframework.boot.SpringApplication.prepareEnvironment(SpringApplication.java:347)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:306)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1260)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1248)
+	at com.dipl.assignment.AssignmentApplication.main(AssignmentApplication.java:18)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:566)
+	at org.springframework.boot.devtools.restart.RestartLauncher.run(RestartLauncher.java:49)
+Caused by: java.io.FileNotFoundException: C:\Users\Chapalamadugu's\Documents\workspace-spring-tool-suite-4-4.6.0.RELEASE\Assignment\logback.xml (The system cannot find the file specified)
+	at java.base/java.io.FileInputStream.open0(Native Method)
+	at java.base/java.io.FileInputStream.open(FileInputStream.java:219)
+	at java.base/java.io.FileInputStream.<init>(FileInputStream.java:157)
+	at java.base/java.io.FileInputStream.<init>(FileInputStream.java:112)
+	at java.base/sun.net.www.protocol.file.FileURLConnection.connect(FileURLConnection.java:86)
+	at java.base/sun.net.www.protocol.file.FileURLConnection.getInputStream(FileURLConnection.java:184)
+	at java.base/java.net.URL.openStream(URL.java:1140)
+	at org.springframework.boot.context.logging.LoggingApplicationListener.initializeSystem(LoggingApplicationListener.java:297)
+	... 19 common frames omitted
+17-May-2020 23:57:06 - Starting AssignmentApplication on LAPTOP-DPPDCD9B with PID 17180 (C:\Users\Chapalamadugu's\Documents\workspace-spring-tool-suite-4-4.6.0.RELEASE\Assignment\target\classes started by Chapalamadugu's in C:\Users\Chapalamadugu's\Documents\workspace-spring-tool-suite-4-4.6.0.RELEASE\Assignment)
+17-May-2020 23:57:06 - Running with Spring Boot v2.1.2.RELEASE, Spring v5.1.4.RELEASE
+17-May-2020 23:57:06 - No active profile set, falling back to default profiles: default
+17-May-2020 23:57:12 - Application run failed
+org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'xmlModelPlugin': Lookup method resolution failed; nested exception is java.lang.IllegalStateException: Failed to introspect Class [springfox.documentation.schema.XmlModelPlugin] from ClassLoader [jdk.internal.loader.ClassLoaders$AppClassLoader@368239c8]
+	at org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor.determineCandidateConstructors(AutowiredAnnotationBeanPostProcessor.java:265)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.determineConstructorsFromBeanPostProcessors(AbstractAutowireCapableBeanFactory.java:1236)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBeanInstance(AbstractAutowireCapableBeanFactory.java:1151)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:538)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:498)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.lambda$doGetBean$0(AbstractBeanFactory.java:320)
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:222)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:318)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:199)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.preInstantiateSingletons(DefaultListableBeanFactory.java:846)
+	at org.springframework.context.support.AbstractApplicationContext.finishBeanFactoryInitialization(AbstractApplicationContext.java:863)
+	at org.springframework.context.support.AbstractApplicationContext.refresh(AbstractApplicationContext.java:546)
+	at org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext.refresh(ServletWebServerApplicationContext.java:142)
+	at org.springframework.boot.SpringApplication.refresh(SpringApplication.java:775)
+	at org.springframework.boot.SpringApplication.refreshContext(SpringApplication.java:397)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:316)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1260)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1248)
+	at com.dipl.assignment.AssignmentApplication.main(AssignmentApplication.java:18)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:566)
+	at org.springframework.boot.devtools.restart.RestartLauncher.run(RestartLauncher.java:49)
+Caused by: java.lang.IllegalStateException: Failed to introspect Class [springfox.documentation.schema.XmlModelPlugin] from ClassLoader [jdk.internal.loader.ClassLoaders$AppClassLoader@368239c8]
+	at org.springframework.util.ReflectionUtils.getDeclaredMethods(ReflectionUtils.java:686)
+	at org.springframework.util.ReflectionUtils.doWithMethods(ReflectionUtils.java:583)
+	at org.springframework.util.ReflectionUtils.doWithMethods(ReflectionUtils.java:568)
+	at org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor.determineCandidateConstructors(AutowiredAnnotationBeanPostProcessor.java:248)
+	... 23 common frames omitted
+Caused by: java.lang.NoClassDefFoundError: javax/xml/bind/annotation/XmlType
+	at java.base/java.lang.Class.getDeclaredMethods0(Native Method)
+	at java.base/java.lang.Class.privateGetDeclaredMethods(Class.java:3166)
+	at java.base/java.lang.Class.getDeclaredMethods(Class.java:2309)
+	at org.springframework.util.ReflectionUtils.getDeclaredMethods(ReflectionUtils.java:668)
+	... 26 common frames omitted
+Caused by: java.lang.ClassNotFoundException: javax.xml.bind.annotation.XmlType
+	at java.base/jdk.internal.loader.BuiltinClassLoader.loadClass(BuiltinClassLoader.java:581)
+	at java.base/jdk.internal.loader.ClassLoaders$AppClassLoader.loadClass(ClassLoaders.java:178)
+	at java.base/java.lang.ClassLoader.loadClass(ClassLoader.java:521)
+	... 30 common frames omitted
+17-May-2020 23:59:00 - Starting AssignmentApplication on LAPTOP-DPPDCD9B with PID 13696 (C:\Users\Chapalamadugu's\Documents\workspace-spring-tool-suite-4-4.6.0.RELEASE\Assignment\target\classes started by Chapalamadugu's in C:\Users\Chapalamadugu's\Documents\workspace-spring-tool-suite-4-4.6.0.RELEASE\Assignment)
+17-May-2020 23:59:00 - Running with Spring Boot v2.1.2.RELEASE, Spring v5.1.4.RELEASE
+17-May-2020 23:59:00 - No active profile set, falling back to default profiles: default
+17-May-2020 23:59:07 - Started AssignmentApplication in 6.541 seconds (JVM running for 7.533)
+17-May-2020 23:59:39 - Starting AssignmentApplication on LAPTOP-DPPDCD9B with PID 13696 (C:\Users\Chapalamadugu's\Documents\workspace-spring-tool-suite-4-4.6.0.RELEASE\Assignment\target\classes started by Chapalamadugu's in C:\Users\Chapalamadugu's\Documents\workspace-spring-tool-suite-4-4.6.0.RELEASE\Assignment)
+17-May-2020 23:59:39 - Running with Spring Boot v2.1.2.RELEASE, Spring v5.1.4.RELEASE
+17-May-2020 23:59:39 - No active profile set, falling back to default profiles: default
+17-May-2020 23:59:40 - Started AssignmentApplication in 1.319 seconds (JVM running for 41.27)
+17-May-2020 23:59:44 - Starting AssignmentApplication on LAPTOP-DPPDCD9B with PID 13696 (C:\Users\Chapalamadugu's\Documents\workspace-spring-tool-suite-4-4.6.0.RELEASE\Assignment\target\classes started by Chapalamadugu's in C:\Users\Chapalamadugu's\Documents\workspace-spring-tool-suite-4-4.6.0.RELEASE\Assignment)
+17-May-2020 23:59:44 - Running with Spring Boot v2.1.2.RELEASE, Spring v5.1.4.RELEASE
+17-May-2020 23:59:44 - No active profile set, falling back to default profiles: default
+17-May-2020 23:59:45 - Started AssignmentApplication in 1.141 seconds (JVM running for 46.063)
